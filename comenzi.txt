@@ -1,0 +1,14 @@
+pytest
+pytest -k <method name> -v
+pytest -m <mark name>
+pytest -v (pentru o ruilare mai detaliata)
+
+coverage run <python file>
+coverage report
+coverage report -m (show missing)
+coverage html
+
+pytest --cov=<python file>
+pytest -v --cov=<python file>
+
+mut.py --target code --unit-test test -m
